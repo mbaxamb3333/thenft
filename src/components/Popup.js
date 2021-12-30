@@ -9,8 +9,8 @@ import emailjs from 'emailjs-com';
 
 
 
-const sgMail = require('@sendgrid/mail');
-sgMail.setApiKey('YOUR_SENDGRID_API_KEY');
+// const sgMail = require('@sendgrid/mail');
+// sgMail.setApiKey('YOUR_SENDGRID_API_KEY');
 
 
 const startPayment = async ({ setError, setTxs, ether, addr }) => {
